@@ -1,0 +1,12 @@
+Primitive variable types are:
+ string
+ number
+ boolean
+ undefine
+ null
+
+let name = 'Matthew';  // String Literal
+let age = 30; // Number Literal
+let isApproved = true; // Boolean Literal
+let firstName = undefined;
+let selectedColor = null;  // Use if you want the variable to be cleared before the user chooses an option
