@@ -1,0 +1,18 @@
+// Objects are things that have multiple properties to them
+// a Person can be an object because it'll also have name, number, address, etc
+
+let person = {
+    name: 'Matthew',
+    age: 30
+};
+
+console.log(person);
+
+// CHANGING PROPERTIES
+// 1. Dot Notation
+person.name = 'Matt';
+console.log(person.name);
+
+// 2. Bracket Notation
+person['name'] = 'Mattie';
+console.log(person['name']);
