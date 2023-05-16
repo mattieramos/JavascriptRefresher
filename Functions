@@ -18,4 +18,20 @@ greet('Matthew', 'Ramos');
 // Matthew is an argument to the greet function (or call)
 // a parameter is what happens at the time of the declaration of the function
 // an argument is the actual value with supply for that parameter
+*******************************
 
+
+
+
+// CALCULATING A VALUE
+
+function square(number) {
+    return number * number;
+}
+
+//obsolete
+let number = square(2);
+console.log(number);
+
+//cleaner way
+console.log(square(2));
