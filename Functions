@@ -1,0 +1,21 @@
+function greet() {
+    console.log('Hello World');
+}
+
+greet();
+*******************************
+
+
+
+
+
+function greet(name, lastName) {
+    console.log('Hello, ' + name + ' ' + lastName);
+}
+
+greet('Matthew', 'Ramos'); 
+// name is a parameter to the greet function
+// Matthew is an argument to the greet function (or call)
+// a parameter is what happens at the time of the declaration of the function
+// an argument is the actual value with supply for that parameter
+
