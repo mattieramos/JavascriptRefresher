@@ -1,2 +1,9 @@
 let name = 'Matthew';
 console.log(name);
+
+
+cannot be a reserved keyword
+should be meaningful
+cannot start with a number (1name)
+cannot contain a space or hyphen (-)
+are case-sensitive
